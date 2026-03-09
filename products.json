@@ -1,0 +1,110 @@
+{
+  "products": [
+    {
+      "brand": "Anthologie",
+      "brand_id": "",
+      "category": "Whole Flower",
+      "category_id": "1828862",
+      "discounted_price": 20,
+      "id": "2667738",
+      "image_url": "https://skoop-general.s3.us-east-1.amazonaws.com/n8n_image_gen%2Fundefined-1773010741032.png",
+      "lab_cannabinoid_unit": "",
+      "lab_cannabinoid_value": 0,
+      "lab_cbd_unit": "",
+      "lab_cbd_value": 0,
+      "lab_cbda_unit": "",
+      "lab_cbda_value": 0,
+      "lab_tac_unit": "",
+      "lab_tac_value": 0,
+      "lab_terps_unit": "",
+      "lab_terps_value": 0,
+      "lab_thc_unit": "",
+      "lab_thc_value": 0,
+      "lab_thca_unit": "",
+      "lab_thca_value": 0,
+      "master_category": "",
+      "name": "Citradelic Sunset | 3.5g",
+      "online_title": "Citradelic Sunset | 3.5g",
+      "price": "50",
+      "prices": [
+        {
+          "type": "medical",
+          "value": "50"
+        },
+        {
+          "type": "rec",
+          "value": "50"
+        },
+        {
+          "type": "base",
+          "value": "50"
+        }
+      ],
+      "pricing_tier_data": null,
+      "quantity": 5,
+      "strain": "Citradelic Sunset",
+      "strain_description": "Citradelic Sunset",
+      "strain_id": "613205",
+      "strain_type": "",
+      "tags": "",
+      "unit_weight": "3.5",
+      "unit_weight_unit": "g",
+      "updated_at": "",
+      "vendor": "MPXNJ",
+      "vendor_id": 0
+    },
+    {
+      "brand": "Grön",
+      "brand_id": "",
+      "category": "Gummies",
+      "category_id": "1828863",
+      "discounted_price": 0,
+      "id": "2704942",
+      "image_url": "https://leaflogixmedia.blob.core.windows.net/product-image/33fde070-45ca-42f6-b515-735dd696bcfe.jpg",
+      "lab_cannabinoid_unit": "",
+      "lab_cannabinoid_value": 0,
+      "lab_cbd_unit": "mg",
+      "lab_cbd_value": 10.48,
+      "lab_cbda_unit": "mg",
+      "lab_cbda_value": 0,
+      "lab_tac_unit": "",
+      "lab_tac_value": 0,
+      "lab_terps_unit": "",
+      "lab_terps_value": 0,
+      "lab_thc_unit": "mg",
+      "lab_thc_value": 2.83,
+      "lab_thca_unit": "mg",
+      "lab_thca_value": 0,
+      "master_category": "",
+      "name": "Gron 4:1 Pomegranate Pearls 10mg x 10-Pack",
+      "online_title": "Gron 4:1 Pomegranate Pearls 10mg x 10-Pack",
+      "price": "32",
+      "prices": [
+        {
+          "type": "medical",
+          "value": "32"
+        },
+        {
+          "type": "rec",
+          "value": "32"
+        },
+        {
+          "type": "base",
+          "value": "32"
+        }
+      ],
+      "pricing_tier_data": null,
+      "quantity": 60,
+      "strain": "Hybrid",
+      "strain_description": "Hybrid",
+      "strain_id": "165967",
+      "strain_type": "Hybrid",
+      "tags": "",
+      "unit_weight": "1",
+      "unit_weight_unit": "g",
+      "updated_at": "",
+      "vendor": "Curaleaf",
+      "vendor_id": 0
+    }
+  ]
+}

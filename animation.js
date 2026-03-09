@@ -19,6 +19,10 @@ async function loadProducts() {
   startCycle();
 }
 
+function startCycle() {
+  animateCycle(0);
+}
+
 function createDustParticles() {
   const container = document.getElementById('background-effects');
   for (let i = 0; i < 30; i++) {
