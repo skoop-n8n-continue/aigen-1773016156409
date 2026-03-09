@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>MPX NJ Product Showcase</title>
+
+  <!-- GSAP Core + Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js?v=g7k2m9"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/SplitText.min.js?v=g7k2m9"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/CustomEase.min.js?v=g7k2m9"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css?v=g7k2m9">
+</head>
+<body>
+  <div id="scene">
+    <!-- Layer 1: Background (Light Pollution Haze) -->
+    <div id="background"></div>
+
+    <!-- Layer 2: Ambient Particles/Effects -->
+    <div id="background-effects">
+      <!-- Generated via JS -->
+    </div>
+
+    <!-- Layer 3: Central Thematic Elements (The X from MPX) -->
+    <svg id="the-x" width="1080" height="1920" viewBox="0 0 1080 1920">
+      <defs>
+        <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#FFF5C2" />
+          <stop offset="50%" stop-color="#D4AF37" />
+          <stop offset="100%" stop-color="#8A6E1D" />
+        </linearGradient>
+      </defs>
+      <path class="x-line" d="M100 200 L980 1720" stroke="url(#gold-grad)" stroke-width="2" opacity="0.1" />
+      <path class="x-line" d="M980 200 L100 1720" stroke="url(#gold-grad)" stroke-width="2" opacity="0.1" />
+    </svg>
+
+    <!-- Layer 4: Products Container -->
+    <div id="products-container"></div>
+
+    <!-- Layer 5: Foreground (Logo & Frame) -->
+    <div id="foreground-layer">
+      <div class="logo-container">
+        <!-- Minimal MPX Logo representation -->
+        <svg viewBox="0 0 100 50" width="120">
+          <text x="50" y="35" font-family="Inter" font-weight="900" font-size="30" fill="#D4AF37" text-anchor="middle" letter-spacing="4">MPX</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <script src="animation.js?v=g7k2m9"></script>
+</body>
+</html>
